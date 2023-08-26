@@ -1,7 +1,25 @@
+
+.inputBTN{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(164, 164, 186);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.inputBTN a{
+    color: white;
+    text-decoration: none;
+}
 .productsWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
+    margin: 10px;
 
 }
 .cardWrapper{
@@ -18,4 +36,15 @@
 .priceWrapper{
     color:red;
     margin: 0;
+}
+
+.inputsInfo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+}
+.inputsInfo input{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
 }

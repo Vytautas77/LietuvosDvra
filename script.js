@@ -19,7 +19,7 @@ const productCard =(product)=>{
 }
 
 const getProducts = async()=>{
-    const response = await fetch('https://sophisticated-humane-dandelion.glitch.me')
+    const response = await fetch('https://64e9d224bf99bdcc8e66ff66.mockapi.io/product/')
     const products = await response.json();
     products.forEach((product) => {
         const card = productCard(product)
