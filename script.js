@@ -27,11 +27,9 @@ const productCard =(product)=>{
         console.log(product.id)
     })
     
-       
     return wrapper
 
 }
-
 
 const getProducts = async()=>{
     const response = await fetch('https://64e9d224bf99bdcc8e66ff66.mockapi.io/product/')
